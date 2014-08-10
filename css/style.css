@@ -7,6 +7,52 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* ---------------------------------------------------------------------------------------------------------- 
+04 Navbar ------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+.navbar-fixed-top .container {
+/* Uncomment to make nav expand full width */
+ /*	width: auto; */
+}
+.navbar .brand {
+	margin-left:0;
+	padding: 0;
+	margin-top: 1.05em;
+}
+.navbar .brand a {
+	padding: 0;
+	color: #ffffff;
+	font-size: 1.35em;
+	margin-left: 0;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Patua One', cursive;
+}
+.navbar .brand a:hover {
+	text-decoration: none;
+	color:#f0bf00;
+ transition: color .15s linear;
+ -webkit-transition: color .15s linear;
+ -moz-transition: color .15s linear;
+}
+.navbar .brand a:focus {
+	outline: none;
+}
+.navbar-inner {
+	min-height: 4.75em;
+}
+.navbar-inverse .navbar-inner {
+	background-repeat: repeat;
+	background-color: #333333;
+	/* 0b333f */
+	border-color: #f0bf00;
+}
+.navbar-wrapper {
+	overflow:hidden;
+	/* No fixed height, will break collapsible nav */
+}
+
 /* Basic */
 
 	body, #skel-layers-wrapper {
