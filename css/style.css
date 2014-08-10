@@ -812,7 +812,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(51, 51, 51);
+                        .background {background-color:#333333;}
 			color: white;
 			display: inline-block;
 			opacity: 0;
