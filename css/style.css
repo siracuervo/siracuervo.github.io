@@ -10,7 +10,7 @@
 /* Basic */
 
 	body, #skel-layers-wrapper {
-		background: #666666;
+		background: #e6e6e6;
 	}
 
 	body.is-loading * {
